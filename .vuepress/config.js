@@ -1,4 +1,5 @@
 module.exports = {
+  title: "Wagtail CMS Documentation",
   plugins: [
     'vuepress-plugin-element-tabs'
   ],

@@ -1,1 +1,1 @@
-# How to use the Wagtail docs
+# How to use the Wagtail docs
