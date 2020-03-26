@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'vuepress-plugin-element-tabs'
+  ],
   themeConfig: {
     logo: 'https://cdn.freebiesupply.com/logos/large/2x/wagtail-logo-png-transparent.png',
     nav: [

@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-element-tabs": "^0.2.8"
   },
   "scripts": {
     "docs:dev": "vuepress dev",
