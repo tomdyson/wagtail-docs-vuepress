@@ -7,19 +7,29 @@ module.exports = {
     logo: 'https://cdn.freebiesupply.com/logos/large/2x/wagtail-logo-png-transparent.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      { text: 'Tutorials', link: '/tutorials/' },
+      { text: 'Guides', link: '/guides/' },
       { text: 'Reference', link: '/reference/' },
-      { text: 'Tutorial', link: '/tutorial/' },
+      { text: 'Background', link: '/background/' }
     ],
     sidebar: {
-      '/guide/': [
-        '',     /* /guide/ */
-        'api'  /* /guide/api.html */
+      '/tutorials/': [
+        '',      /* /tutorials/ */
+        'your-first-wagtail-site' /* /tutorials/your-first-wagtail-site.html */
+      ],
+
+      '/guides/': [
+        '',     /* /guides/ */
+        'api'  /* /guides/api.html */
       ],
 
       '/reference/': [
         '',      /* /reference/ */
         'images' /* /reference/images.html */
+      ],
+
+      '/background/': [
+        ''
       ],
 
       // fallback

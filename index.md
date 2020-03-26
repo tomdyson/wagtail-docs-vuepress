@@ -6,7 +6,7 @@ heroImage: https://cdn.freebiesupply.com/logos/large/2x/wagtail-logo-png-transpa
 heroText: Wagtail
 tagline: A lovely CMS
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /tutorials/
 features:
 - title: Pretty
   details: Wagtail looks nice.
