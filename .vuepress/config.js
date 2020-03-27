@@ -37,8 +37,7 @@ module.exports = {
         ''
       ]
     },
-    repo: 'wagtail/wagtail',
-    docsDir: 'docs',
+    repo: 'tomdyson/wagtail-docs-vuepress',
     editLinks: true,
   }
 }

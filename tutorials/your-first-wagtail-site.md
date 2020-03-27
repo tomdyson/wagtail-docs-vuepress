@@ -8,9 +8,7 @@ This tutorial covers setting up a brand new Wagtail project. If you’d like to 
 
 ### Install dependencies
 
-Wagtail supports Python 3.5, 3.6, 3.7 and 3.8.
-
-To check whether you have an appropriate version of Python 3:
+Wagtail supports Python 3.5, 3.6, 3.7 and 3.8. To check that you have an appropriate version:
 
 ```bash
 python3 --version
@@ -56,7 +54,7 @@ See the [venv documentation](https://docs.python.org/3/library/venv.html)
 ::::
 
 ::: tip Note
-If you’re using version control (e.g. git), mysite will be the directory for your project. The env directory inside of it should be excluded from any version control.
+If you’re using version control (e.g. git), `mysite` will be the directory for your project. The env directory inside it should be excluded from any version control.
 :::
 
 ### Install Wagtail
@@ -64,7 +62,7 @@ If you’re using version control (e.g. git), mysite will be the directory for y
 Use pip, which is packaged with Python, to install Wagtail and its dependencies:
 
 ```bash
-pip install wagtail
+python3 -m pip install wagtail
 ```
 
 ### Generate your site
